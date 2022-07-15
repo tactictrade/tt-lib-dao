@@ -6,7 +6,7 @@ setup(
     url='https://github.com/tactictrade/tt-lib-dao.git',
     author='CannavIT',
     author_email='cecilio.cannav@gmail.com',
-    py_modules=['dao'],
+    py_modules=['tt_lib_dao'],
     description="dao Library for TacticTrade", 
     entry_points={
     'console_scripts': [
