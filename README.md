@@ -5,7 +5,7 @@
 Create file setup.py
 
     from setuptools import setup
-    
+
     setup(
         name='dao',
         version="0.0.1",
@@ -49,12 +49,17 @@ Check in local
 
     python -c "import tt_lib_dao; tt_lib_dao"
 
+    python -c "from dao.UserDao import UserDao"
+
 ## How add install library
 
 Create the file requirement.txt and add this
 
     git+https://github.com/tactictrade/tt-lib-dao.git#develop
 
+
 Install from terminal
 
     pip install git+https://github.com/tactictrade/tt-lib-dao.git#develop
+
+
