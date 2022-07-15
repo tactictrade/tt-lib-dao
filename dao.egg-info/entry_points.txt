@@ -1,0 +1,2 @@
+[console_scripts]
+add = tt_lib_dao:cmd_add
