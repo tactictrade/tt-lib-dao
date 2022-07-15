@@ -61,5 +61,3 @@ Create the file requirement.txt and add this
 Install from terminal
 
     pip install git+https://github.com/tactictrade/tt-lib-dao.git#develop
-
-
