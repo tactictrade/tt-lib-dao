@@ -47,3 +47,7 @@ Check in local
 Create the file requirement.txt and add this
 
     git+https://github.com/tactictrade/tt-lib-dao.git#develop
+
+Install from terminal
+
+    pip install git+https://github.com/tactictrade/tt-lib-dao.git
