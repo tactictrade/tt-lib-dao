@@ -1,8 +1,0 @@
-my_pip_package.py
-setup.py
-my_pip_package.egg-info/PKG-INFO
-my_pip_package.egg-info/SOURCES.txt
-my_pip_package.egg-info/dependency_links.txt
-my_pip_package.egg-info/entry_points.txt
-my_pip_package.egg-info/pbr.json
-my_pip_package.egg-info/top_level.txt

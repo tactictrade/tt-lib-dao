@@ -1,17 +1,16 @@
 from setuptools import setup
 
-__version__ = 'dev'
-
 setup(
-    name='my_pip_package',
-    version=__version__,
+    name='dao',
+    version="0.0.1",
     url='https://github.com/tactictrade/tt-lib-dao.git',
     author='CannavIT',
     author_email='cecilio.cannav@gmail.com',
-    py_modules=['my_pip_package'],
+    py_modules=['dao'],
+    description="Dao Library for TacticTrade",
     entry_points={
     'console_scripts': [
-        'add=my_pip_package.math:cmd_add',
+        'add=dao:cmd_add',
     ],
 },
 )
