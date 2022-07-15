@@ -11,3 +11,5 @@ Check in local
     cd ..
     
     python -c "import tt_lib_dao; tt_lib_dao.UserDao"
+
+    python -c "from tt_lib_dao import UserDao"
