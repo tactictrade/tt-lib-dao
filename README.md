@@ -58,6 +58,10 @@ Create the file requirement.txt and add this
     git+https://github.com/tactictrade/tt-lib-dao.git#develop
 
 
-Install from terminal
+Install from terminal with pip
 
-    pip install git+https://github.com/tactictrade/tt-lib-dao.git#develop
+    pip install git+https://github.com/tactictrade/tt-lib-dao.git#egg=dao
+
+Install from terminal with pipenv
+
+    pipenv install git+https://github.com/tactictrade/tt-lib-dao.git#egg=dao
