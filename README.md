@@ -8,4 +8,6 @@ Install in local
 
 Check in local
 
+    cd ..
+    
     python -c "import tt_lib_dao; tt_lib_dao.UserDao"
