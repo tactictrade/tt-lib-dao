@@ -1,5 +1,5 @@
 from venv import create
-from main.dao.UserDao import UserDao
+from dao.UserDao import UserDao
 import uuid
 
 class UserDao(UserDao):

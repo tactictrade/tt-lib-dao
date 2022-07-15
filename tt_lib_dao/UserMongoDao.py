@@ -1,4 +1,4 @@
-from main.dao.UserDao import UserDao
+from dao.UserDao import UserDao
 class UserDao(UserDao):
     def __init__(self):
         super().__init__()
