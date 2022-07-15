@@ -38,10 +38,12 @@ Check in local
 
     cd ..
     
-    python -c "import tt_lib_dao; tt_lib_dao.UserDao"
-
-    python -c "from tt_lib_dao import UserDao"
-
-    pip install git+https://github.com/tactictrade/tt-lib-dao.git
-
     python -c "import tt_lib_dao; tt_lib_dao.health()"
+
+    python -c "import tt_lib_dao; tt_lib_dao"
+
+## How add install library
+
+Create the file requirement.txt and add this
+
+    git+https://github.com/tactictrade/tt-lib-dao.git#develop
