@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from my_pip_package import __version__
+__version__ = 'dev'
 
 setup(
     name='my_pip_package',
