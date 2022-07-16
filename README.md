@@ -65,3 +65,7 @@ Install from terminal with pip
 Install from terminal with pipenv
 
     pipenv install git+https://github.com/tactictrade/tt-lib-dao.git#egg=dao
+
+## Run the test using pytest
+
+    pytest

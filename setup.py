@@ -13,9 +13,8 @@ setup(
     'console_scripts': [
         'add=tt_lib_dao:cmd_add',
     ],
-    }
-    # install_requires=[
-    #    "Django >= 1.1.1",
-    #    "pytest",
-    #  ],
+    },
+    install_requires=[
+       "pymongo==4.1.1",
+     ],
 )

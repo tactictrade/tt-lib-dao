@@ -1,7 +1,6 @@
 README.md
 setup.py
 tt_lib_dao.py
-dao/
 dao/UserDao.py
 dao/UserMemoDao.py
 dao/UserMongoDao.py
@@ -11,5 +10,5 @@ dao.egg-info/PKG-INFO
 dao.egg-info/SOURCES.txt
 dao.egg-info/dependency_links.txt
 dao.egg-info/entry_points.txt
-dao.egg-info/pbr.json
+dao.egg-info/requires.txt
 dao.egg-info/top_level.txt
